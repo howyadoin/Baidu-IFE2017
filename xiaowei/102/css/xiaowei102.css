@@ -1,0 +1,130 @@
+body {
+	font-family: "franklin gothic book", century gothic, sans-serif;
+	background-color: #d7d7d7;
+}
+
+footer {
+	clear: left;
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 70px;
+	line-height: 55px;
+	width: 100%;
+}
+
+#logo {
+	position: absolute;
+	left: 40px;
+}
+
+#nav {
+	float: right;
+	background-color: #383838;
+	margin: -8px 0px 22px;
+	width: 100%;
+	height: 60px;
+	text-align: right;
+	line-height: 55px;
+	}
+ 
+#nav li {
+	display: inline;
+}
+
+#nav li a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-family: "微软雅黑", georgia, sans-serif;
+	font-size: 90%;
+	padding-right: 15px;
+}
+
+
+#nav li:last-child {
+	margin-right: 20px;
+}
+
+.tableRow {
+	display: table-row;
+}
+
+.tableRow p {
+	display: table-cell;
+	padding-left: 500px;
+    text-indent: -500px;
+}
+
+.tableRow p:first-child {
+	text-align: right;
+	vertical-align: top;
+	padding-right: 12px;
+}
+
+#sidebar {
+	width: 93%;
+	display: table;
+	background-color: white;
+	padding: 10px 20px 20px 20px;
+	margin: 20px 50px 20px 15px;
+	border: 1px solid lightgray;
+	border-right: 3px solid darkgray;
+	border-bottom: 3px solid darkgray;
+	line-height: 40px;
+}
+
+#sidebar > h2 {
+	height: 1.8em;
+	line-height: 43px;
+	padding-left: 12px;
+	border-left: 3px solid lightgray;
+}
+
+#submit {
+	background-color: #3355d0;
+	width: 100%;
+	height: 40px;
+	color: white;
+	border: none;
+	border-radius: 0.7em;
+}
+
+.content {
+	clear: both;
+	background-color: white;
+	padding: 25px;
+	margin: 20px 15px;
+	border: 1px solid lightgray;
+	border-right: 3px solid darkgray;
+	border-bottom: 3px solid darkgray;
+}
+
+.photo {
+	text-align: center;
+	border: 1px solid darkgray;
+	width: 360px;
+	height: 340px;
+	margin: 30px 40px;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+
+table , td, th{
+	border: 1px solid darkgray;
+	padding: 5px;
+}
+
+table th {
+	background-color: black;
+	color: white;
+}
+
+tr:last-child {
+	font-weight: bold;
+	background-color: #c9c9c9;
+}
