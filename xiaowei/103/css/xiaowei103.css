@@ -1,0 +1,41 @@
+#body {
+	background-color: #eee;
+	padding: 20px;
+	margin: 20px 10px;
+	border: 1px solid darkgray;
+	height: 440px;
+}
+
+section#logobar {
+	background-color: white;
+	float: left;
+	border: 1px solid #999;
+	width: 158px;
+	height: 78px;
+	padding: 20px;
+}
+
+section#logobar span{
+	float: right;
+}
+
+section#content {
+	background-color: white;
+	border: 1px solid #999;
+	width: auto;
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 0 20px;
+}
+
+aside {
+	float: right;
+	background-color: white;
+	border: 1px solid #999;
+	width: 120px;
+	text-align: center;
+}
+
+aside p {
+	margin: 20px;
+}
